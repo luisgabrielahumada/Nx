@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Infrastructure", "_Infrastructure", "{586BF2E2-E234-4BFA-AAB1-3AD80E73A2AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nx.Services", "Nx.Services", "{4D31DE1E-C38E-40E6-BDFB-EEFA9AC64E22}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{AAD63FF9-4720-45B4-992F-CD7F46635F62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nx.Mappers", "Nx.Mappers", "{98ACA805-3468-4100-87A4-307231254642}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nx.Domain", "Nx.Domain", "{752D3D79-0972-44FB-8030-EBCBB19892F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nx.Services", "Core\Nx.Services.csproj", "{75D02EC5-0E46-4512-BFA5-0342E13BA69D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nx.WebApi", "WebApi\Nx.WebApi.csproj", "{09F92C39-4C5B-40D6-A69B-75C8CD574521}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nx.Mappers", "Mappers\Nx.Mappers.csproj", "{D02F0CCD-C584-4D0D-B116-5306B7AFE9CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nx.Domain", "Domain\Nx.Domain.csproj", "{91A748D0-A8A7-4CB5-A9C5-75F577128A7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAD63FF9-4720-45B4-992F-CD7F46635F62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAD63FF9-4720-45B4-992F-CD7F46635F62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAD63FF9-4720-45B4-992F-CD7F46635F62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAD63FF9-4720-45B4-992F-CD7F46635F62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75D02EC5-0E46-4512-BFA5-0342E13BA69D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75D02EC5-0E46-4512-BFA5-0342E13BA69D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75D02EC5-0E46-4512-BFA5-0342E13BA69D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75D02EC5-0E46-4512-BFA5-0342E13BA69D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09F92C39-4C5B-40D6-A69B-75C8CD574521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09F92C39-4C5B-40D6-A69B-75C8CD574521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09F92C39-4C5B-40D6-A69B-75C8CD574521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09F92C39-4C5B-40D6-A69B-75C8CD574521}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D02F0CCD-C584-4D0D-B116-5306B7AFE9CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D02F0CCD-C584-4D0D-B116-5306B7AFE9CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D02F0CCD-C584-4D0D-B116-5306B7AFE9CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D02F0CCD-C584-4D0D-B116-5306B7AFE9CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91A748D0-A8A7-4CB5-A9C5-75F577128A7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91A748D0-A8A7-4CB5-A9C5-75F577128A7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91A748D0-A8A7-4CB5-A9C5-75F577128A7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91A748D0-A8A7-4CB5-A9C5-75F577128A7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AAD63FF9-4720-45B4-992F-CD7F46635F62} = {586BF2E2-E234-4BFA-AAB1-3AD80E73A2AC}
+		{75D02EC5-0E46-4512-BFA5-0342E13BA69D} = {4D31DE1E-C38E-40E6-BDFB-EEFA9AC64E22}
+		{D02F0CCD-C584-4D0D-B116-5306B7AFE9CD} = {98ACA805-3468-4100-87A4-307231254642}
+		{91A748D0-A8A7-4CB5-A9C5-75F577128A7D} = {752D3D79-0972-44FB-8030-EBCBB19892F1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F58E81BE-7EBC-4B4D-AA74-6A79D0D1CF1B}
+	EndGlobalSection
+EndGlobal
